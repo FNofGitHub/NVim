@@ -12,15 +12,15 @@ vim.opt.shiftwidth = 4
 vim.opt.clipboard = "unnamedplus"
 
 vim.o.hlsearch = false
-vim.o.ignorecase = true
+vim.opt.ignorecase = true
 vim.o.smartcase = true
 
-vim.opt.scrolloff = 999
+vim.opt.scrolloff = 8
 
 vim.opt.virtualedit = "block"
 
 vim.opt.inccommand = "split"
-vim.opt.ignorecase = true
+
 
 vim.opt.termguicolors = true
 
